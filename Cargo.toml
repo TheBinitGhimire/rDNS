@@ -1,0 +1,20 @@
+[package]
+name = "rDNS"
+version = "0.0.1"
+authors = ["Binit Ghimire <thebinitghimire@gmail.com>"]
+edition = "2018"
+license = "MIT"
+categories = ["command-line-utilities"]
+description = "rDNS is a reverse DNS lookup utility, using which you can figure out the hostname associated with an IP address."
+homepage = "https://github.com/TheBinitGhimire/rDNS/"
+documentation = "https://github.com/TheBinitGhimire/rDNS/"
+repository = "https://github.com/TheBinitGhimire/rDNS/"
+readme = "README.md"
+keywords = ["reverse", "DNS-lookup", "DNS-resolution", "reverse-DNS", "networking"]
+exclude = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dns-lookup = "1.0.5"
+clap = "3.0.0-beta.2"
